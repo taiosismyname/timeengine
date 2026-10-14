@@ -1,0 +1,5 @@
+# Test-only oracle. Not imported by the engine, not needed at runtime.
+skyfield       # MIT
+jplephem       # MIT
+skyfield-data  # bundles JPL DE421 (public domain data) for offline use
+numpy

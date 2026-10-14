@@ -1,0 +1,10 @@
+[project]
+name = "timeengine"
+version = "0.4.0"
+description = "Unified Western astrology + BaZi + solar terms + numerology calculation core"
+requires-python = ">=3.11"
+license = {text = "AGPL-3.0-only"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: long-running validation sweeps (deselect with -m 'not slow')"]

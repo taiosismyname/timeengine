@@ -1,0 +1,6 @@
+pydantic>=2
+fastapi
+uvicorn[standard]
+pyswisseph        # AGPL/commercial dual-license; see README
+zhdate            # lunar calendar adapter (optional but recommended)
+pytest
